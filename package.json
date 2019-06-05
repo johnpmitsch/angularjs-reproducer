@@ -1,0 +1,26 @@
+{
+  "name": "pokemon-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently 'lite-server' './node_modules/.bin/webpack --watch'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "angular-ui-router": "^1.0.22",
+    "webpack": "^2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-loader": "^8.0.6",
+    "concurrently": "^4.1.0",
+    "html-loader": "^0.5.5",
+    "lite-server": "^2.5.3"
+  }
+}
